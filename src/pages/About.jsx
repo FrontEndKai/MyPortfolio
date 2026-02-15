@@ -34,7 +34,11 @@ const About = () => {
         <div className="about-content-wrapper">
           <div className="about-image-section">
             <div className="about-image-placeholder">
-              <span className="image-text">Your Photo</span>
+              <img
+                src="/me.jpg"
+                alt="Alde Stephen D. Seares portrait"
+                className="about-photo"
+              />
             </div>
           </div>
           <div className="about-text-section">

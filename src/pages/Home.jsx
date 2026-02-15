@@ -78,7 +78,7 @@ const Home = () => {
               <span className="code-keyword">const</span> <span className="code-variable">skills</span> = [
               <span className="code-string">'React'</span>, 
               <span className="code-string">'Node.js'</span>, 
-              <span className="code-string">'TypeScript'</span>
+              <span className="code-string">'Javascript'</span>
               ];
             </div>
             
