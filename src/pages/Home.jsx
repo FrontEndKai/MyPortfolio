@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail, Download, Code, Palette, Zap, Terminal, Sparkles, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Palette, Zap, Terminal, Sparkles, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const Home = () => {
@@ -53,14 +53,10 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-text">
-            <div className="terminal-header">
-              <Terminal size={20} />
-              <span>~/developer/portfolio</span>
-            </div>
             <p className="hero-greeting">
               <span className="code-bracket">&lt;</span>
               <Sparkles size={18} className="sparkle-icon" />
-              Hello, I'm
+              <span className="hero-greeting-text">Hello, I'm</span>
               <span className="code-bracket">/&gt;</span>
             </p>
             <h1 className="hero-name">
@@ -114,15 +110,11 @@ const Home = () => {
           <div className="hero-right">
             <div className="hero-image">
               <div className="image-wrapper">
-                <div className="image-placeholder">
-                  <div className="code-animation">
-                    <div className="code-line"></div>
-                    <div className="code-line"></div>
-                    <div className="code-line"></div>
-                    <div className="code-line"></div>
-                  </div>
-                  <Code size={80} className="placeholder-icon" />
-                </div>
+                <img
+                  src="/itsme.png"
+                  alt="Alde Stephen D. Seares portrait"
+                  className="hero-photo"
+                />
                 
                 {/* Tech Stack Badges */}
                 <div className="tech-badge badge-1">
