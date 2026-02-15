@@ -439,13 +439,6 @@ body {
   50.01%, 100% { opacity: 0; }
 }
 
-.hero-bio {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  max-width: 34rem;
-  margin-bottom: 1.75rem;
-}
-
 .code-comment {
   color: var(--text-muted);
 }
@@ -458,7 +451,7 @@ body {
   background: rgba(15, 23, 42, 0.95);
   border: 1px solid rgba(148, 163, 184, 0.35);
   color: var(--text-secondary);
-  margin-bottom: 1.75rem;
+  margin-bottom: 2.4rem;
 }
 
 .code-keyword {
@@ -478,7 +471,7 @@ body {
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
-  margin-top: 0.75rem;
+  margin-top: 2rem;
 }
 
 .hero-cta .btn-primary,

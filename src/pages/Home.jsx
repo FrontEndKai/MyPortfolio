@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail, Download, Palette, Zap, Terminal, Sparkles, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Download, Sparkles, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const Home = () => {
@@ -54,10 +54,10 @@ const Home = () => {
         <div className="hero-container">
           <div className="hero-text">
             <p className="hero-greeting">
-              <span className="code-bracket">&lt;</span>
+              <span className="code-bracket"></span>
               <Sparkles size={18} className="sparkle-icon" />
               <span className="hero-greeting-text">Hello, I'm</span>
-              <span className="code-bracket">/&gt;</span>
+              <span className="code-bracket"></span>
             </p>
             <h1 className="hero-name">
               <span className="gradient-text">Alde Stephen D. Seares</span>
@@ -67,19 +67,13 @@ const Home = () => {
               <span className="role-text">{typedText}</span>
               <span className="role-cursor">|</span>
             </h2>
-            <p className="hero-bio">
-              <span className="code-comment">/* </span>
-              Crafting pixel-perfect, high-performance web experiences.
-              Transforming complex problems into elegant solutions.
-              <span className="code-comment"> */</span>
-            </p>
             
             <div className="code-snippet">
-              <span className="code-keyword">const</span> <span className="code-variable">skills</span> = [
-              <span className="code-string">'React'</span>, 
-              <span className="code-string">'Node.js'</span>, 
-              <span className="code-string">'Javascript'</span>
-              ];
+              <span className="code-keyword">printf</span> <span className="code-variable">("</span>
+              <span className="code-string">Hello there!</span>
+              <span className="code-string"> I can help you solve your problem</span>
+              <span className="code-string"> by making design of your webiste.</span>
+              <span className="code-variable">"</span>);
             </div>
             
             <div className="hero-cta">
