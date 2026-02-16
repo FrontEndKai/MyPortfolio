@@ -1247,8 +1247,11 @@ body {
   color: var(--text-secondary);
 }
 
-.projects-page .project-links {
+.projects-page .project-footer {
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .project-card-header {

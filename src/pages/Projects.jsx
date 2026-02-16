@@ -4,19 +4,19 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'CAMPERS: CLG/CES Accessible Management Portal and Event Reporting System',
       category: 'Full Stack',
-      description: 'A complete e-commerce solution with shopping cart, payment integration, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      description: 'A complete system for tracking students points.',
+      technologies: ['React', 'Node.js', 'Vercel', 'Tailwind CSS', 'Firebase'],
       image: '🛒',
       liveLink: 'https://project1.com',
       githubLink: 'https://github.com/yourusername/project1'
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Shuttlemate',
       category: 'Frontend',
-      description: 'A beautiful task manager with drag-and-drop, real-time collaboration, and analytics.',
+      description: 'A system that can book shuttle in the campus',
       technologies: ['React', 'Firebase', 'Tailwind CSS'],
       image: '📋',
       liveLink: 'https://project2.com',
@@ -83,20 +83,22 @@ const Projects = () => {
             </div>
             <h3>{project.title}</h3>
             <p className="project-description">{project.description}</p>
-            
-            <div className="tech-stack">
-              {project.technologies.map((tech, index) => (
-                <span key={index} className="tech-tag">{tech}</span>
-              ))}
-            </div>
 
-            <div className="project-links">
-              <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                <ExternalLink size={18} /> Live Demo
-              </a>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
-                <Github size={18} /> Source Code
-              </a>
+            <div className="project-footer">
+              <div className="tech-stack">
+                {project.technologies.map((tech, index) => (
+                  <span key={index} className="tech-tag">{tech}</span>
+                ))}
+              </div>
+
+              <div className="project-links">
+                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <ExternalLink size={18} /> Live Demo
+                </a>
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                  <Github size={18} /> Source Code
+                </a>
+              </div>
             </div>
           </div>
         ))}
