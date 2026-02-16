@@ -1214,6 +1214,9 @@ body {
 
 .projects-page .project-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: rgba(15, 23, 42, 0.98);
   border-radius: 1.25rem;
   border: 1px solid rgba(148, 163, 184, 0.5);
@@ -1242,6 +1245,10 @@ body {
 
 .projects-page .project-description {
   color: var(--text-secondary);
+}
+
+.projects-page .project-links {
+  margin-top: auto;
 }
 
 .project-card-header {
