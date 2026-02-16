@@ -53,27 +53,19 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-container">
           <div className="hero-text">
-            <p className="hero-greeting">
-              <span className="code-bracket"></span>
-              <Sparkles size={18} className="sparkle-icon" />
-              <span className="hero-greeting-text">Hello, I'm</span>
-              <span className="code-bracket"></span>
-            </p>
-            <h1 className="hero-name">
-              <span className="gradient-text">Alde Stephen D. Seares</span>
-            </h1>
-            <h2 className="hero-role">
-              <span className="role-prefix"></span>
-              <span className="role-text">{typedText}</span>
-              <span className="role-cursor">|</span>
-            </h2>
-            
-            <div className="code-snippet">
-              <span className="code-keyword">printf</span> <span className="code-variable">("</span>
-              <span className="code-string">Hello there!</span>
-              <span className="code-string"> I can help you solve your problem</span>
-              <span className="code-string"> by making design of your webiste.</span>
-              <span className="code-variable">"</span>);
+            <div className="hero-intro">
+              <span className="hero-label">UI/UX Designer</span>
+              <h1 className="hero-name gradient-text">Alde Stephen D. Seares</h1>
+              <h2 className="hero-role">
+                <span className="role-text">{typedText}</span>
+                <span className="role-cursor">|</span>
+              </h2>
+              <p className="hero-description">
+                Crafting digital experiences that blend creativity, usability, and performance. I design and build modern web interfaces for brands, startups, and businesses.
+              </p>
+            </div>
+            <div className="code-snippet modern">
+              <span className="code-keyword">const</span> <span className="code-variable">portfolio</span> <span className="code-keyword">=</span> <span className="code-string">"Design. Develop. Deliver."</span>;
             </div>
             
             <div className="hero-cta">
@@ -105,7 +97,7 @@ const Home = () => {
             <div className="hero-image">
               <div className="image-wrapper">
                 <img
-                  src="/itsme.png"
+                  src="/stephen nobg.png"
                   alt="Alde Stephen D. Seares portrait"
                   className="hero-photo"
                 />

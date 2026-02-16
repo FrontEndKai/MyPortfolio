@@ -1,4 +1,48 @@
-﻿:root {
+﻿.hero-intro {
+  margin-bottom: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.hero-label {
+  font-size: 1.1rem;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.2rem;
+}
+.hero-name.gradient-text {
+  font-size: 3.2rem;
+  font-weight: 800;
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0.2rem;
+}
+.hero-role {
+  font-size: 1.3rem;
+  color: var(--primary-light);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.hero-description {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 520px;
+  margin-bottom: 0.5rem;
+}
+.code-snippet.modern {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.05rem;
+  background: rgba(30, 41, 59, 0.85);
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(99,102,241,0.07);
+}
+:root {
   /* Modern Color Palette */
   --primary: #6366f1;
   --primary-dark: #4f46e5;
