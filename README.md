@@ -134,4 +134,10 @@ If you have any questions, feel free to reach out!
 This project is open source and available under the MIT License.
 
 
+WEBSITE SCREENSHOTS
+
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/70666d60-d14f-49a3-9a9d-cea079e9893d" />
+
+
+
 
