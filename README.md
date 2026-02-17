@@ -134,9 +134,27 @@ If you have any questions, feel free to reach out!
 This project is open source and available under the MIT License.
 
 
-WEBSITE SCREENSHOTS
+WEBSITE SCREENSHOT
 
-<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/70666d60-d14f-49a3-9a9d-cea079e9893d" />
+[HOME PAGE]
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/6030076a-e025-4d83-a939-6143ba6cb377" />
+
+[ABOUT PAGE]
+<img width="1910" height="946" alt="image" src="https://github.com/user-attachments/assets/d981d903-af42-4e49-80f2-9802277fe233" />
+<img width="1907" height="609" alt="image" src="https://github.com/user-attachments/assets/07b5a868-14d2-421b-b73d-991aefc728e7" />
+<img width="1918" height="691" alt="image" src="https://github.com/user-attachments/assets/59087222-9a19-4210-88b5-0911034a73ff" />
+
+[PROJECT PAGE]
+<img width="1915" height="947" alt="image" src="https://github.com/user-attachments/assets/174b1d97-2598-493e-9f88-25c4744f195c" />
+
+[CONTACT PAGE]
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/e7c27525-d5ad-410e-a98f-8ac129a03a77" />
+
+
+
+
+
+
 
 
 
