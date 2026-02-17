@@ -1,3 +1,5 @@
+import "../styles/about.css";
+
 const About = () => {
   const skills = [
     { name: 'React', level: 90 },

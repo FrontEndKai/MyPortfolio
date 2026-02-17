@@ -1,13 +1,14 @@
 import { ExternalLink, Github } from 'lucide-react';
+import "../styles/projects.css";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'CAMPERS: CLG/CES Accessible Management Portal and Event Reporting System',
+      title: 'CAMPERS',
       category: 'Full Stack',
       description: 'A complete system for tracking students points.',
-      technologies: ['React', 'Node.js', 'Vercel', 'Tailwind CSS', 'Firebase'],
+      technologies: ['React', 'Node.js', 'Vercel', 'Tailwind CSS'],
       image: '🛒',
       liveLink: 'https://project1.com',
       githubLink: 'https://github.com/yourusername/project1'

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Mail, Download, Sparkles, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import "../styles/home.css";
 
 const Home = () => {
   const [typedText, setTypedText] = useState('');

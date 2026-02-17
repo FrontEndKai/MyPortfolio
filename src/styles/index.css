@@ -33,7 +33,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  margin-top: auto;
+  margin-top: 0.2rem;
   min-height: 44px;
 }
 
@@ -1807,7 +1807,6 @@ body {
   align-items: stretch;
   justify-content: flex-end;
   min-height: 70px;
-  flex: 1 1 auto;
 }
 
 .project-card-header {
