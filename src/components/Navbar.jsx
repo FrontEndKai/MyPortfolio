@@ -35,6 +35,11 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/resume" className="nav-link" onClick={() => setIsOpen(false)}>
+              Resume
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

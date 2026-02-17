@@ -108,28 +108,28 @@ const Home = () => {
                   <div className="badge-icon">⚛️</div>
                   <div className="badge-text">
                     <strong>React</strong>
-                    <span>Expert</span>
+                    {/* <span>User</span> */}
                   </div>
                 </div>
                 <div className="tech-badge badge-2">
                   <div className="badge-icon">📦</div>
                   <div className="badge-text">
-                    <strong>Node.js</strong>
-                    <span>Advanced</span>
+                    <strong>Packages</strong>
+                    {/* <span>User</span> */}
                   </div>
                 </div>
                 <div className="tech-badge badge-3">
                   <div className="badge-icon">🎨</div>
                   <div className="badge-text">
                     <strong>Design</strong>
-                    <span>Creative</span>
+                    {/* <span>Creative</span> */}
                   </div>
                 </div>
                 <div className="tech-badge badge-4">
                   <div className="badge-icon">⚡</div>
                   <div className="badge-text">
                     <strong>Performance</strong>
-                    <span>Optimized</span>
+                    {/* <span>Optimized</span> */}
                   </div>
                 </div>
               </div>

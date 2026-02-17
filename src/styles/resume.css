@@ -1,0 +1,287 @@
+/* Resume Page Unique & Catchy Design */
+.resume-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #181a1b 0%, #232526 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  position: relative;
+  z-index: 1;
+  /* Add a soft blue/cyan glow for modernity */
+  box-shadow: 0 0 120px 0 #3fd0ff22 inset;
+}
+
+.resume-glass-card {
+  position: relative;
+  background: linear-gradient(120deg, rgba(28,30,34,0.98) 80%, rgba(63,208,255,0.07) 100%);
+  border-radius: 2.2rem;
+  box-shadow: 0 8px 36px 0 #3fd0ff22, 0 2px 32px 0 #c0c0c022;
+  border: 2.5px solid rgba(192,192,192,0.18);
+  backdrop-filter: blur(22px);
+  padding: 3.2rem 2.7rem 2.7rem 2.7rem;
+  max-width: 760px;
+  width: 100%;
+  color: #eaf6fb;
+  overflow: hidden;
+  animation: resume-fade-in 1.1s cubic-bezier(.4,2,.6,1);
+  z-index: 2;
+}
+@keyframes resume-fade-in {
+  0% { opacity: 0; transform: translateY(40px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.resume-glass-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 2.2rem;
+  pointer-events: none;
+  background: linear-gradient(120deg, #3fd0ff 0%, #c0c0c0 100%);
+  opacity: 0.07;
+  z-index: 1;
+  filter: blur(18px);
+  animation: border-glow 3.5s linear infinite alternate;
+}
+@keyframes border-glow {
+  0% { opacity: 0.12; }
+  100% { opacity: 0.28; }
+}
+.resume-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  position: relative;
+}
+.resume-header::before {
+  content: 'Resume';
+  position: absolute;
+  top: -2.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #3fd0ff 0%, #c0c0c0 100%);
+  color: #232526;
+  font-size: 1.08rem;
+  font-weight: 700;
+  padding: 0.45rem 1.5rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px 0 #c0c0c044;
+  z-index: 3;
+  letter-spacing: 0.08em;
+  opacity: 0.93;
+  animation: label-fade-in 1.5s cubic-bezier(.4,2,.6,1);
+}
+@keyframes label-fade-in {
+  0% { opacity: 0; transform: translateY(-16px) scale(0.98); }
+  100% { opacity: 0.93; transform: translateY(0) scale(1); }
+}
+.resume-name {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #c0c0c0;
+  letter-spacing: 0.04em;
+  background: linear-gradient(90deg, #3fd0ff 0%, #c0c0c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.3rem;
+  text-shadow: 0 2px 16px #c0c0c055;
+  animation: gradient-move 3.5s linear infinite alternate;
+}
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+.resume-address {
+  font-size: 1.13rem;
+  color: #b0b0b0;
+  margin-bottom: 0.7rem;
+  font-style: italic;
+}
+.resume-section {
+  margin-bottom: 2.1rem;
+  padding-bottom: 1.3rem;
+  border-bottom: 1.5px dashed #3fd0ff33;
+  position: relative;
+  z-index: 2;
+}
+.resume-section:last-child {
+  border-bottom: none;
+}
+.resume-section h2 {
+  font-size: 1.22rem;
+  color: #c0c0c0;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 8px #23252644;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg, #3fd0ff 0%, #c0c0c0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-move 3.5s linear infinite alternate;
+}
+.resume-section ul {
+  margin-left: 1.2rem;
+  color: #d6eaff;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.resume-section li {
+  margin-bottom: 0.3rem;
+  transition: color 0.2s, transform 0.2s;
+}
+.resume-section li:hover {
+  color: #3fd0ff;
+  transform: translateX(6px) scale(1.03);
+}
+.resume-skills ul li b {
+  color: #3fd0ff;
+  font-weight: 700;
+}
+.resume-projects {
+  margin-top: 1.1rem;
+}
+.resume-project {
+  margin-bottom: 1.2rem;
+  padding: 1.1rem 1.2rem;
+  background: rgba(63,208,255,0.08);
+  border-radius: 1.1rem;
+  box-shadow: 0 2px 12px 0 #3fd0ff22;
+  border: 1.5px solid #3fd0ff;
+  transition: box-shadow 0.22s, transform 0.18s, background 0.18s;
+  animation: project-fade-in 0.8s cubic-bezier(.4,2,.6,1);
+  position: relative;
+  z-index: 2;
+}
+.resume-project:hover {
+  background: rgba(63,208,255,0.18);
+  box-shadow: 0 8px 32px 0 #3fd0ff55, 0 0 24px 4px #c0c0c055;
+  transform: scale(1.025) translateY(-2px);
+}
+.resume-project-title {
+  font-size: 1.13rem;
+  color: #3fd0ff;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  letter-spacing: 0.01em;
+}
+.resume-education-detail {
+  font-size: 1.13rem;
+  color: #d6eaff;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .resume-glass-card {
+    padding: 1.5rem 0.7rem;
+    max-width: 98vw;
+  }
+}
+@media (max-width: 600px) {
+  .resume-glass-card {
+    padding: 0.7rem 0.2rem;
+  }
+  .resume-header::before {
+    font-size: 0.98rem;
+    padding: 0.35rem 1.1rem;
+    top: -1.2rem;
+  }
+  .resume-name {
+    font-size: 1.3rem;
+  }
+  .resume-section h2 {
+    font-size: 1.05rem;
+  }
+  .resume-education-detail {
+    font-size: 0.98rem;
+  }
+}
+
+/* Resume Screenshot Card Styles */
+.resume-screenshot-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background: rgba(34, 37, 41, 0.96);
+  box-shadow: 0 8px 36px 0 rgba(192,192,192,0.22), 0 2px 32px 0 rgba(255,255,255,0.13);
+  border-radius: 2.2rem;
+  overflow: hidden;
+  border: 2.5px solid rgba(192,192,192,0.22);
+  padding: 2.5rem 1.2rem 2.2rem 1.2rem;
+  z-index: 2;
+}
+.resume-screenshot-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, #232526 0%, #c0c0c0 100%);
+  opacity: 0.08;
+  z-index: 1;
+  pointer-events: none;
+  filter: blur(8px);
+  animation: resume-bg-move 8s linear infinite alternate;
+}
+@keyframes resume-bg-move {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+.resume-screenshot-img {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  width: 540px;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 32px 0 #c0c0c055, 0 0 16px 2px #fff2;
+  border: 2.5px solid #c0c0c0;
+  background: #232526;
+  margin-bottom: 1.5rem;
+  transition: transform 0.22s, box-shadow 0.22s;
+  animation: resume-img-fade-in 1.2s cubic-bezier(.4,2,.6,1);
+}
+.resume-screenshot-img:hover {
+  transform: scale(1.025) rotate(-1deg);
+  box-shadow: 0 8px 48px 0 #c0c0c099, 0 0 32px 4px #fff5;
+}
+@keyframes resume-img-fade-in {
+  0% { opacity: 0; transform: translateY(40px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.resume-screenshot-label {
+  position: absolute;
+  top: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #c0c0c0 0%, #fff 100%);
+  color: #232526;
+  font-size: 1.08rem;
+  font-weight: 700;
+  padding: 0.45rem 1.5rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 12px 0 #c0c0c044;
+  z-index: 3;
+  letter-spacing: 0.08em;
+  opacity: 0.93;
+  animation: label-fade-in 1.5s cubic-bezier(.4,2,.6,1);
+}
+@keyframes label-fade-in {
+  0% { opacity: 0; transform: translateY(-16px) scale(0.98); }
+  100% { opacity: 0.93; transform: translateY(0) scale(1); }
+}
+@media (max-width: 700px) {
+  .resume-screenshot-img {
+    width: 98vw;
+    max-width: 98vw;
+  }
+  .resume-screenshot-card {
+    padding: 1.1rem 0.2rem 1.1rem 0.2rem;
+  }
+  .resume-screenshot-label {
+    font-size: 0.98rem;
+    padding: 0.35rem 1.1rem;
+  }
+}
