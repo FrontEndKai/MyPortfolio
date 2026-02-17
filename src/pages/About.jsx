@@ -98,11 +98,11 @@ const About = () => {
           <div className="timeline-item">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
-              <span className="timeline-date">2024 - Present</span>
-              <h3 className="timeline-title">Senior Developer</h3>
-              <p className="timeline-company">Your Company Name</p>
+              <span className="timeline-date">2022</span>
+              <h3 className="timeline-title">Information System (Carolinian UI/UX Designer)</h3>
+              <p className="timeline-company">University of San Carlos</p>
               <p className="timeline-description">
-                Leading development of web applications and mentoring junior developers.
+                Making clean web designs from my own ideas and from the ideas of the client, making sure the design is responsive and user-friendly.
               </p>
             </div>
           </div>
@@ -110,11 +110,11 @@ const About = () => {
           <div className="timeline-item">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
-              <span className="timeline-date">2022 - 2024</span>
-              <h3 className="timeline-title">Full Stack Developer</h3>
-              <p className="timeline-company">Previous Company</p>
+              <span className="timeline-date">2023-204</span>
+              <h3 className="timeline-title">Information System (Carolinian Frontend Developer)</h3>
+              <p className="timeline-company">University of San Carlos</p>
               <p className="timeline-description">
-                Developed and maintained multiple client projects using React and Node.js.
+                Developed and maintained websites from design to implementation, ensuring responsive and user-friendly interfaces.
               </p>
             </div>
           </div>
@@ -122,11 +122,23 @@ const About = () => {
           <div className="timeline-item">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
-              <span className="timeline-date">2018 - 2022</span>
-              <h3 className="timeline-title">Computer Science Degree</h3>
-              <p className="timeline-company">Your University</p>
+              <span className="timeline-date">2024-2025</span>
+              <h3 className="timeline-title">Information System (Carolinian Backend Developer)</h3>
+              <p className="timeline-company">University of San Carlos</p>
               <p className="timeline-description">
-                Graduated with honors, specialized in web development and software engineering.
+                Working the website from frontend to backend, making sure the website is responsive and user-friendly.
+              </p>
+            </div>
+          </div>
+          
+          <div className="timeline-item">
+            <div className="timeline-marker"></div>
+            <div className="timeline-content">
+              <span className="timeline-date">2025-2026</span>
+              <h3 className="timeline-title">Information System (Carolinian Full Stack Developer)</h3>
+              <p className="timeline-company">University of San Carlos</p>
+              <p className="timeline-description">
+                Making a project from design to implementation by working on frontend and backend, making sure the website is responsive and user-friendly.
               </p>
             </div>
           </div>

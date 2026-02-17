@@ -19,7 +19,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your form submission logic here (e.g., EmailJS, FormSpree)
-    console.log('Form submitted:', formData);
+    console.log('Form submitted:', formData);z
     alert('Message sent! I will get back to you soon.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
@@ -42,7 +42,7 @@ const Contact = () => {
               <Mail size={28} />
             </div>
             <h3>Email</h3>
-            <p>your.email@example.com</p>
+            <p>frontend.kaisu@gmail.com</p>
             <a href="mailto:your.email@example.com" className="contact-link">Send a message →</a>
           </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
             <h3>GitHub</h3>
             <p>Check out my code</p>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">View projects →</a>
+            <a href="https://github.com/FrontEndKai/MyPortfolio" target="_blank" rel="noopener noreferrer" className="contact-link">View projects →</a>
           </div>
         </div>
 

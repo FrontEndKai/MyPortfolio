@@ -60,12 +60,12 @@ const Home = () => {
                 <span className="role-text">{typedText}</span>
                 <span className="role-cursor">|</span>
               </h2>
-              <p className="hero-description">
+              {/* <p className="hero-description">
                 Crafting digital experiences that blend creativity, usability, and performance. I design and build modern web interfaces for brands, startups, and businesses.
-              </p>
+              </p> */}
             </div>
             <div className="code-snippet modern">
-              <span className="code-keyword">const</span> <span className="code-variable">portfolio</span> <span className="code-keyword">=</span> <span className="code-string">"Design. Develop. Deliver."</span>;
+              <span className="code-keyword">printf</span><span className="code-string">("I can help you by making your web design and develop it.")</span>;
             </div>
             
             <div className="hero-cta">
@@ -148,7 +148,7 @@ const Home = () => {
                 >
                   <div className="stat-icon">💼</div>
                   <div className="stat-content">
-                    <h3 className="stat-number" data-count="1">1+</h3>
+                    <h3 className="stat-number" data-count="1">3+</h3>
                     <p className="stat-label">Years Experience</p>
                   </div>
                   <div className="stat-progress"></div>
@@ -233,7 +233,7 @@ const Home = () => {
                 <ul>
                   <li>Hands-on with full project lifecycles</li>
                   <li>Comfortable taking features from idea to production</li>
-                  <li>Focused on writing clean, maintainable code</li>
+                  <li>Focused on making websites using HTML, CSS, JS and React</li>
                 </ul>
               </div>
             )}
