@@ -54,7 +54,7 @@ const Home = () => {
         <div className="hero-container">
           <div className="hero-text">
             <div className="hero-intro">
-              <span className="hero-label">UI/UX Designer</span>
+              <span className="hero-label">Frontend Developer</span>
               <h1 className="hero-name gradient-text">Alde Stephen D. Seares</h1>
               <h2 className="hero-role">
                 <span className="role-text">{typedText}</span>

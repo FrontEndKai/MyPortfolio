@@ -66,22 +66,23 @@ const Projects = () => {
 
   return (
     <div className="page-shell projects-page">
-      <div className="projects-header">
-        <span className="section-label">Browse My Recent</span>
-        <h1 className="section-title">Projects</h1>
+      <div className="projects-hero">
+        <h1 className="section-title animated-gradient-text">Projects</h1>
         <p className="projects-intro">
-          Here are some of my recent projects. Each one represents a unique challenge 
-          and learning experience in my development journey.
+          <span className="projects-intro-highlight">Explore my creative and technical journey through these unique projects.</span>
         </p>
       </div>
 
-      <div className="projects-grid">
-        {projects.map((project) => (
-          <div key={project.id} className="project-card">
+      <div className="projects-grid animated-projects-grid">
+        {projects.map((project, idx) => (
+          <div key={project.id} className="project-card project-card-animated" style={{ animationDelay: `${0.1 * idx + 0.2}s` }}>
+            <div className="project-card-floating-icon">
+              <span role="img" aria-label="icon" className="project-icon">{project.image}</span>
+            </div>
             <div className="project-card-header">
               <span className="project-category">{project.category}</span>
             </div>
-            <h3>{project.title}</h3>
+            <h3 className="project-title">{project.title}</h3>
             <p className="project-description">{project.description}</p>
 
             <div className="project-footer">

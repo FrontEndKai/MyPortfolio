@@ -29,7 +29,6 @@ const About = () => {
   return (
     <div className="page-shell about-page">
       <section className="about-header">
-        <span className="section-label">Get To Know More</span>
         <h1 className="section-title">About Me</h1>
         <div className="about-content-wrapper">
           <div className="about-image-section">
